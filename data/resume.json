@@ -1,0 +1,83 @@
+{
+  "name": "KARAN SINGH DHIR",
+  "title": "Senior Software Engineer",
+  "contact": [
+    { "text": "+1 236 514 9613" },
+    { "text": "ksdhir.dev@gmail.com", "href": "mailto:ksdhir.dev@gmail.com" },
+    { "text": "linkedin.com/in/ksdhir", "href": "https://linkedin.com/in/ksdhir" },
+    { "text": "github.com/ksdhir", "href": "https://github.com/ksdhir" },
+    { "text": "Vancouver, BC" },
+    { "text": "Open to Relocate" }
+  ],
+  "summary": "I'm a Senior Software Engineer who builds things that work for real people - exam platforms used by 217K students, health apps that support doctor-patient relationships and individual fitness, and internal tools that power the teams and ecosystems behind them. My strongest skill isn't in my tech stack - it's reading between the lines, understanding what people actually need, and building the right thing. I'm the person teams trust to bridge the gap between product, design, and engineering and make sure nothing falls through the cracks. AWS Solutions Architect certified.",
+  "skills": [
+    { "category": "Languages", "items": "TypeScript, JavaScript, Java, Python, HTML, CSS" },
+    { "category": "Frameworks & Runtime", "items": "React.js, Next.js, Vue.js, Node.js, TailwindCSS, GraphQL" },
+    { "category": "Cloud & Serverless", "items": "AWS (Lambda, API Gateway, EC2, RDS, S3, SQS, IAM, WAF, CloudFront) - AWS Solutions Architect Certified" },
+    { "category": "DevOps & Infrastructure", "items": "Docker, AWS SAM, Jenkins, Vercel, CI/CD pipelines, Infrastructure as Code" },
+    { "category": "Databases", "items": "DynamoDB, PostgreSQL, MongoDB, Neo4j (Certified Professional)" },
+    { "category": "CMS & Platforms", "items": "Strapi, WordPress (Headless)" }
+  ],
+  "experience": [
+    {
+      "company": "Willow Laboratories",
+      "date": "Sep 2024 - Present",
+      "location": "Vancouver, BC",
+      "position": "Software Engineer II",
+      "bullets": [
+        "Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline - built a Quarkus microservice in Java to pull and serve content to mobile in real time, eliminating layout inconsistencies and enabling content updates without mobile releases.",
+        "Drove architecture improvements across 3 products (Nutu App, HCP Portal, Corporate Website), standardizing a shared component and icon library that reduced design inconsistencies and cut UI development time by 20%.",
+        "Architected a self-serve analytics dashboard using Apache Superset with centralized Keycloak authentication, eliminating manual reporting overhead for sales and marketing teams.",
+        {
+          "text": "Delivered zero-downtime content publishing by implementing draft mode in Strapi CMS with on-demand cache invalidation in Next.js. Built and open-sourced a {Strapi translation plugin} to connect any translation API (DeepL, OpenAI) to Strapi for localization.",
+          "links": {
+            "Strapi translation plugin": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+          }
+        }
+      ]
+    },
+    {
+      "company": "Langara College",
+      "date": "Oct 2023 - Aug 2024",
+      "location": "Vancouver, BC",
+      "position": "Full-Stack Developer",
+      "bullets": [
+        "Reduced infrastructure costs to $0 and page load times by 40% by migrating the WMDD department site from AWS EC2 to Vercel with an optimized caching layer.",
+        "Developed langara-app.ca using Next.js with WordPress as a headless CMS, implementing custom post types for events, blogs, and student projects with structured metadata for SEO."
+      ]
+    },
+    {
+      "company": "Vidya Mantra EduSystems Pvt. Ltd.",
+      "date": "Jul 2018 - Aug 2023",
+      "location": "Noida, India",
+      "position": "Senior Software Developer & Team Lead",
+      "bullets": [
+        {
+          "text": "Architected and shipped {ExamPathFinder.com} - a pan-India competitive exam platform serving 217K+ users with 273K+ questions, built on Vue.js and AWS Serverless (API Gateway, Lambda, SQS, DynamoDB, S3).",
+          "links": {
+            "ExamPathFinder.com": "https://ExamPathFinder.com"
+          }
+        },
+        "Built the ecosystem around the platform - a multilingual jobs and admissions portal, and an internal content authoring tool for tagged MCQ banks that reduced manual content operations time by 40%.",
+        "Led a cross-functional team of 6+ developers, establishing structured GitHub workflows and 1:1 mentorship. Took ownership early, was promoted to Senior.",
+        "Introduced Knowledge Sharing Fridays - weekly team presentations on individual features that improved documentation, kept the team engaged, and significantly reduced onboarding time after attrition."
+      ]
+    }
+  ],
+  "certifications": [
+    { "name": "AWS Certified Solutions Architect - Associate", "year": "July 2024" },
+    { "name": "Neo4j Certified Professional", "year": "2019, renewed 2024" }
+  ],
+  "education": [
+    {
+      "institution": "Langara College",
+      "date": "2022 - 2023",
+      "degree": "Post-Degree Diploma - Web and Mobile App Design and Development"
+    },
+    {
+      "institution": "University of Delhi",
+      "date": "2014 - 2017",
+      "degree": "Bachelor of Commerce - Minor in Computer Applications in Business"
+    }
+  ]
+}
