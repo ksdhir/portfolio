@@ -56,9 +56,9 @@ export default function Nav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`whitespace-nowrap transition-colors hover:text-slate-800 ${
+                className={`whitespace-nowrap transition-colors hover:text-accent ${
                   pathname === link.href
-                    ? "text-slate-800 underline underline-offset-4"
+                    ? "text-accent underline underline-offset-4"
                     : ""
                 }`}
               >
@@ -72,7 +72,7 @@ export default function Nav() {
               href="https://github.com/ksdhir"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 transition-colors hover:text-slate-800"
+              className="text-gray-400 transition-colors hover:text-accent"
               aria-label="GitHub"
             >
               <GitHubIcon />
@@ -81,7 +81,7 @@ export default function Nav() {
               href="https://linkedin.com/in/ksdhir"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 transition-colors hover:text-slate-800"
+              className="text-gray-400 transition-colors hover:text-accent"
               aria-label="LinkedIn"
             >
               <LinkedInIcon />

@@ -16,7 +16,7 @@ export default function CopyResumeButton() {
   return (
     <button
       onClick={handleCopy}
-      className="rounded border border-slate-300 px-4 py-2 text-sm font-medium text-slate-800 transition-colors hover:bg-slate-50"
+      className="rounded border border-accent/30 px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent/5"
     >
       {copied ? "Copied!" : "Copy to Clipboard"}
     </button>

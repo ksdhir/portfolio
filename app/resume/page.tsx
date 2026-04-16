@@ -33,7 +33,7 @@ function renderBullet(item: BulletItem, i: number) {
       <a
         key={key++}
         href={url}
-        className="text-gray-900 underline decoration-gray-300 hover:decoration-gray-900 print:no-underline"
+        className="text-accent underline decoration-accent/30 hover:decoration-accent print:no-underline"
       >
         {label}
       </a>
@@ -56,7 +56,7 @@ export default function ResumePage() {
         <a
           href="/resume.docx"
           download
-          className="rounded bg-slate-800 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-700"
+          className="rounded bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent/80"
         >
           Download Resume
         </a>

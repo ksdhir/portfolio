@@ -41,7 +41,7 @@ export default function WorkPage() {
                     {project.link ? (
                       <a
                         href={project.link}
-                        className="underline decoration-slate-300 underline-offset-2 hover:decoration-slate-800"
+                        className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
                       >
                         {project.name}
                       </a>

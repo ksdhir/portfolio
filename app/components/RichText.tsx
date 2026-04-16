@@ -25,7 +25,7 @@ function renderItem(item: TextItem, key: number) {
       <a
         key={partKey++}
         href={url}
-        className="font-medium text-slate-800 underline underline-offset-2 hover:text-slate-500"
+        className="font-medium text-accent underline underline-offset-2 hover:text-accent/70"
       >
         {label}
       </a>
