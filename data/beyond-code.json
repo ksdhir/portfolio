@@ -1,0 +1,22 @@
+{
+  "heading": "Beyond Code",
+  "sections": [
+    {
+      "title": "Cycling",
+      "description": "There's something about being on a bike that clears the head better than any debugging session. Vancouver's trails make it easy to disappear for a few hours and come back with a fresh perspective.",
+      "photos": [],
+      "photosPlaceholder": "Photos coming soon."
+    },
+    {
+      "title": "Hiking",
+      "description": "From the North Shore mountains to wherever the trail takes me. The best ideas usually show up somewhere between the trailhead and the summit.",
+      "photos": [],
+      "photosPlaceholder": "Photos coming soon."
+    },
+    {
+      "title": "Reading",
+      "description": "I'm a firm believer that good engineers read widely - not just technical books, but anything that builds empathy and perspective. Always happy to swap recommendations.",
+      "photos": []
+    }
+  ]
+}

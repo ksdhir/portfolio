@@ -1,0 +1,16 @@
+{
+  "heading": "Hello! I'm Karan and I'm a software engineer.",
+  "photo": "/photo.jpeg",
+  "paragraphs": [
+    "I build products that people actually use - an exam platform serving 217K students across India, health apps that support patient care, and the dashboards and platforms that teams rely on to do their work. I've worked across healthcare, edtech, and SaaS.",
+    "I thrive when I'm bridging the gap between what people ask for and what they actually need. Beyond the tech, my strongest skill is reading between the lines - I'm the person teams put in when it matters. Whether it's leading a team, pitching an idea that changes how a product works, or sitting with design to get the UX right, I care about building the right thing, not just building things right.",
+    "When I'm not coding, you'll find me on a cycling trail, out on a hike, or lost in a good book.",
+    {
+      "text": "If you'd like to talk about opportunities or just swap book recommendations, feel free to shoot me an {email} or reach out on {LinkedIn}. I'm based in Vancouver, BC and open to relocating.",
+      "links": {
+        "email": "mailto:ksdhir.dev@gmail.com",
+        "LinkedIn": "https://linkedin.com/in/ksdhir"
+      }
+    }
+  ]
+}
