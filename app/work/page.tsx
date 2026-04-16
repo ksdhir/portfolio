@@ -24,14 +24,14 @@ export default function WorkPage() {
 
   return (
     <article className="py-10">
-      <h2 className="mb-10 font-sans text-3xl font-bold tracking-tight text-slate-800">
+      <h2 className="mb-10 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight text-slate-800 md:text-4xl">
         Some of my work
       </h2>
 
       <div className="space-y-12">
         {Object.entries(grouped).map(([company, companyProjects]) => (
           <section key={company}>
-            <h3 className="mb-6 border-b border-gray-200 pb-2 text-lg font-bold text-slate-800">
+            <h3 className="mb-6 border-b border-gray-200 pb-2 text-lg font-bold text-slate-800 md:text-xl">
               {company}
             </h3>
             <div className="space-y-8">

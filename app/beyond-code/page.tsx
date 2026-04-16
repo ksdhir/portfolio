@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function BeyondCodePage() {
   return (
     <article className="py-10">
-      <h2 className="mb-10 font-sans text-3xl font-bold tracking-tight">
+      <h2 className="mb-10 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight md:text-4xl">
         Beyond Code
       </h2>
 
