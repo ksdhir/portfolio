@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import resume from "@/data/resume.json";
+import CopyResumeButton from "./CopyResumeButton";
 
 export const metadata: Metadata = {
   title: `${resume.name} - Resume`,
@@ -49,6 +50,18 @@ function renderBullet(item: BulletItem, i: number) {
 export default function ResumePage() {
   return (
     <main className="resume-page mx-auto max-w-[52rem] bg-white px-8 py-12 font-sans text-[15px] leading-relaxed text-gray-900 print:max-w-none print:px-0 print:py-0">
+      {/* Download button */}
+      <div className="mb-6 flex justify-end gap-3 print:hidden">
+        <CopyResumeButton />
+        <a
+          href="/resume.docx"
+          download
+          className="rounded bg-slate-800 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-700"
+        >
+          Download Resume
+        </a>
+      </div>
+
       {/* Top accent bar */}
       <div className="mb-8 h-1 w-full bg-gray-900 print:mb-6" />
 

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ExamPathFinder.com",
+    "company": "Vidya Mantra EduSystems",
+    "role": "Senior Software Developer & Team Lead",
+    "description": "A pan-India competitive exam platform serving 217K+ users with 273K+ questions. Built the full ecosystem including a multilingual jobs portal and an internal content authoring tool.",
+    "impact": "217K+ users, 273K+ questions, 40% reduction in manual content operations",
+    "tech": ["Vue.js", "AWS Lambda", "API Gateway", "SQS", "DynamoDB", "S3"],
+    "link": "https://ExamPathFinder.com"
+  },
+  {
+    "name": "Nutu Health App",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline. Built a Quarkus microservice in Java to pull and serve content to mobile in real time. Also built reporting dashboards for the V2 app, tracking patient progress against personalized health goals with clear indicators so users can see at a glance whether they're on track.",
+    "impact": "Eliminated layout inconsistencies, enabled content updates without mobile releases, delivered live health metrics reporting",
+    "tech": ["Java", "Quarkus", "Strapi", "Next.js"],
+    "link": null
+  },
+  {
+    "name": "DPP Dashboard Migration",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Led the modernization of the Diabetes Prevention Program dashboard from a legacy codebase to Next.js. Restructured the architecture and introduced unit and integration tests in the Jenkins CI pipeline to shift quality checks upstream before QA.",
+    "impact": "Modernized stack, restructured architecture, shifted quality left with automated CI testing",
+    "tech": ["Next.js", "Jenkins", "React.js", "TypeScript"],
+    "link": null
+  },
+  {
+    "name": "HCP Dashboard",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Owned the Health Care Provider dashboard end-to-end. Partnered with design to audit UX gaps across error handling, empty states, and user flows, then built the full portal enabling doctors to manage staff, patients, and clinical reports.",
+    "impact": "Delivered a complete portal from scratch, improved UX through cross-functional design collaboration",
+    "tech": ["Next.js", "React.js", "TypeScript"],
+    "link": null
+  },
+  {
+    "name": "Portal Standardization",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Standardized the DPP and HCP portals on a shared stack and component library, eliminating duplication across two separate products.",
+    "impact": "Cut UI development time by 20%, eliminated cross-portal inconsistencies",
+    "tech": ["React.js", "TypeScript"],
+    "link": null
+  },
+  {
+    "name": "Strapi Translation Plugin",
+    "company": "Open Source",
+    "role": "Author",
+    "description": "An open-source Strapi plugin that connects any translation API to Strapi for content localization. Built to solve a real gap in the ecosystem while working on multilingual content pipelines.",
+    "impact": "Supports DeepL, OpenAI, and any custom translation API endpoint",
+    "tech": ["Node.js", "Strapi"],
+    "link": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+  },
+  {
+    "name": "Langara WMDD Department Site",
+    "company": "Langara College",
+    "role": "Full-Stack Developer",
+    "description": "Built langara-app.ca using Next.js with WordPress as a headless CMS. Migrated from AWS EC2 to Vercel, implementing custom post types for events, blogs, and student projects.",
+    "impact": "Infrastructure costs reduced to $0, page load times improved by 40%",
+    "tech": ["Next.js", "WordPress", "Vercel"],
+    "link": null
+  },
+  {
+    "name": "Self-Serve Analytics Dashboard",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Architected an internal analytics dashboard using Apache Superset with centralized Keycloak authentication, giving sales and marketing teams direct access to their own data.",
+    "impact": "Eliminated manual reporting overhead entirely",
+    "tech": ["Apache Superset", "Keycloak"],
+    "link": null
+  }
+]

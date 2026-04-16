@@ -1,65 +1,64 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function AboutPage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <article className="py-10">
+      <div className="mb-10 flex flex-col items-center gap-6 md:flex-row md:items-center md:gap-12">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
+          src="/photo.jpeg"
+          alt="Karan Singh Dhir"
+          width={200}
+          height={200}
+          className="shrink-0 rounded-full object-cover"
           priority
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+        <h2 className="font-sans text-3xl font-bold tracking-tight text-slate-800 text-center md:text-left">
+          Hello! I&apos;m Karan and I&apos;m a software engineer.
+        </h2>
+      </div>
+
+      <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+        <p>
+          I&apos;ve spent the last 8 years building products that people
+          actually use - from an exam platform used by 217K students across
+          India to health apps that support patient care and individual
+          fitness. I&apos;ve worked across healthcare, edtech, and SaaS, and
+          I thrive when I&apos;m bridging the gap between what people ask
+          for and what they actually need.
+        </p>
+        <p>
+          Beyond the tech, my strongest skill is reading between the
+          lines. I&apos;m the person teams put in when it matters, the one
+          who connects product, design, and engineering so nothing falls through
+          the cracks. I care about building the right thing, not just building
+          things right.
+        </p>
+
+        <p>
+          When I&apos;m not coding, you&apos;ll find me on a cycling trail, out
+          on a hike, or lost in a good book. I believe the best engineers bring
+          perspective from outside their editor.
+        </p>
+
+        <p>
+          If you&apos;d like to talk about opportunities, collaborate on
+          something, or just swap book recommendations, feel free to shoot me an{" "}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:ksdhir.dev@gmail.com"
+            className="font-medium text-slate-800 underline underline-offset-2 hover:text-slate-500"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
+            email
+          </a>{" "}
+          or reach out on{" "}
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://linkedin.com/in/ksdhir"
+            className="font-medium text-slate-800 underline underline-offset-2 hover:text-slate-500"
           >
-            Documentation
+            LinkedIn
           </a>
-        </div>
-      </main>
-    </div>
+          ! I&apos;m based in Vancouver, BC and open to relocating.
+        </p>
+      </div>
+    </article>
   );
 }

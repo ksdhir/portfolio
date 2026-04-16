@@ -8,7 +8,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-I'm a Senior Software Engineer who builds things that work for real people - exam platforms used by 217K students, health apps that support doctor-patient relationships and individual fitness, and internal tools that power the teams and ecosystems behind them. My strongest skill isn't in my tech stack - it's reading between the lines, understanding what people actually need, and building the right thing. I'm the person teams trust to bridge the gap between product, design, and engineering and make sure nothing falls through the cracks. AWS Solutions Architect certified.
+I'm a Senior Software Engineer who builds things that work for real people - exam platforms used by 217K students, health apps that support patient care and individual fitness, and internal tools that power the teams and ecosystems behind them. My strongest skill isn't in my tech stack - it's reading between the lines, understanding what people actually need, and building the right thing. I'm the person teams trust to bridge the gap between product, design, and engineering and make sure nothing falls through the cracks. AWS Solutions Architect certified.
 
 ---
 
@@ -31,8 +31,10 @@ I'm a Senior Software Engineer who builds things that work for real people - exa
 
 *Software Engineer II*
 
-- Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline - built a Quarkus microservice in Java to pull and serve content to mobile in real time, eliminating layout inconsistencies and enabling content updates without mobile releases.
-- Drove architecture improvements across 3 products (Nutu App, HCP Portal, Corporate Website), standardizing a shared component and icon library that reduced design inconsistencies and cut UI development time by 20%.
+- Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline - built a Quarkus microservice in Java to pull and serve content to mobile in real time, eliminating layout inconsistencies and enabling content updates without mobile releases. Built reporting dashboards for the Nutu V2 app, tracking patient progress against personalized health goals with clear goal indicators so users can see at a glance whether they're on track.
+- Led the modernization of the Diabetes Prevention Program (DPP) dashboard - migrated from a legacy codebase to Next.js, restructured the architecture, and introduced unit and integration tests in the Jenkins CI pipeline to shift quality checks upstream before QA.
+- Owned the Health Care Provider (HCP) dashboard end-to-end - partnered with design to audit UX gaps across error handling, empty states, and user flows, then built the full portal enabling doctors to manage staff, patients, and clinical reports.
+- Standardized the DPP and HCP portals on a shared stack and component library, eliminating cross-portal inconsistencies and cutting UI development time by 20%.
 - Architected a self-serve analytics dashboard using Apache Superset with centralized Keycloak authentication, eliminating manual reporting overhead for sales and marketing teams.
 - Delivered zero-downtime content publishing by implementing draft mode in Strapi CMS with on-demand cache invalidation in Next.js. Built and open-sourced a [Strapi translation plugin](https://github.com/ksdhir/strapi-provider-translate-custom-api) to connect any translation API (DeepL, OpenAI) to Strapi for localization.
 

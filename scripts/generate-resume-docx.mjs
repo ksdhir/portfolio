@@ -296,3 +296,42 @@ const doc = new Document({
 const buffer = await Packer.toBuffer(doc);
 writeFileSync("public/resume.docx", buffer);
 console.log("resume.docx generated from data/resume.json");
+
+// Generate plain text version for AI/ATS parsers
+function bulletText(item) {
+  if (typeof item === "string") return item;
+  let text = item.text;
+  for (const [label, url] of Object.entries(item.links)) {
+    text = text.replace(`{${label}}`, `${label} (${url})`);
+  }
+  return text;
+}
+
+const lines = [
+  resume.name,
+  resume.title,
+  resume.contact.map((c) => c.text).join(" | "),
+  "",
+  "PROFESSIONAL SUMMARY",
+  resume.summary,
+  "",
+  "TECHNICAL SKILLS",
+  ...resume.skills.map((s) => `${s.category}: ${s.items}`),
+  "",
+  "PROFESSIONAL EXPERIENCE",
+  ...resume.experience.flatMap((job) => [
+    "",
+    `${job.company} | ${job.date} | ${job.location}`,
+    job.position,
+    ...job.bullets.map((b) => `- ${bulletText(b)}`),
+  ]),
+  "",
+  "CERTIFICATIONS",
+  ...resume.certifications.map((c) => `- ${c.name} (${c.year})`),
+  "",
+  "EDUCATION",
+  ...resume.education.map((e) => `${e.institution} | ${e.date}\n${e.degree}`),
+];
+
+writeFileSync("public/resume.txt", lines.join("\n"));
+console.log("resume.txt generated from data/resume.json");
