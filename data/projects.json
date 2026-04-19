@@ -1,29 +1,11 @@
 [
   {
-    "name": "ExamPathFinder.com",
-    "company": "Vidya Mantra EduSystems",
-    "role": "Senior Software Developer & Team Lead",
-    "description": "A pan-India competitive exam platform serving 217K+ users with 273K+ questions. Built the full ecosystem including a multilingual jobs portal and an internal content authoring tool.",
-    "impact": "217K+ users, 273K+ questions, 40% reduction in manual content operations",
-    "tech": ["Vue.js", "AWS Lambda", "API Gateway", "SQS", "DynamoDB", "S3"],
-    "link": "https://ExamPathFinder.com"
-  },
-  {
     "name": "Nutu Health App",
     "company": "Willow Laboratories",
     "role": "Software Engineer II",
     "description": "Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline. Built a Quarkus microservice in Java to pull and serve content to mobile in real time. Also built reporting dashboards for the V2 app, tracking patient progress against personalized health goals with clear indicators so users can see at a glance whether they're on track.",
     "impact": "Eliminated layout inconsistencies, enabled content updates without mobile releases, delivered live health metrics reporting",
     "tech": ["Java", "Quarkus", "Strapi", "Next.js"],
-    "link": null
-  },
-  {
-    "name": "DPP Dashboard Migration",
-    "company": "Willow Laboratories",
-    "role": "Software Engineer II",
-    "description": "Led the modernization of the Diabetes Prevention Program dashboard from a legacy codebase to Next.js, restructuring the architecture around modern server/client boundaries.",
-    "impact": "Modernized the stack and restructured the architecture to unblock further feature work",
-    "tech": ["Next.js", "React.js", "TypeScript"],
     "link": null
   },
   {
@@ -39,7 +21,7 @@
     "name": "HCP Dashboard",
     "company": "Willow Laboratories",
     "role": "Software Engineer II",
-    "description": "Owned the Health Care Provider dashboard end-to-end. Partnered with design to audit UX gaps across error handling, empty states, and user flows, then built the full portal enabling doctors to manage staff, patients, and clinical reports.",
+    "description": "Owned the Health Care Provider dashboard end-to-end. Partnered with design to rebuild UX (error handling, empty states, user flows), then shipped the full portal enabling doctors to manage staff, patients, and clinical reports.",
     "impact": "Delivered a complete portal from scratch, improved UX through cross-functional design collaboration",
     "tech": ["Next.js", "React.js", "TypeScript"],
     "link": null
@@ -54,13 +36,40 @@
     "link": null
   },
   {
-    "name": "Strapi Translation Plugin",
-    "company": "Open Source",
-    "role": "Author",
-    "description": "An open-source Strapi plugin that connects any translation API to Strapi for content localization. Built to solve a real gap in the ecosystem while working on multilingual content pipelines.",
-    "impact": "Supports DeepL, OpenAI, and any custom translation API endpoint",
-    "tech": ["Node.js", "Strapi"],
-    "link": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+    "name": "Self-Serve Analytics Dashboard",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Architected an internal analytics dashboard using Apache Superset with centralized Keycloak authentication, giving sales and marketing teams direct access to their own data.",
+    "impact": "Eliminated manual reporting overhead entirely",
+    "tech": ["Apache Superset", "Keycloak"],
+    "link": null
+  },
+  {
+    "name": "ExamPathFinder.com",
+    "company": "Vidya Mantra EduSystems",
+    "role": "Senior Software Developer & Team Lead",
+    "description": "Architected and shipped a pan-India competitive exam platform from the ground up - serving 217K+ users with 273K+ questions on a Vue.js frontend backed by an AWS serverless stack (API Gateway, Lambda, SQS, DynamoDB, S3).",
+    "impact": "217K+ users, 273K+ questions, fully serverless backend",
+    "tech": ["Vue.js", "AWS Lambda", "API Gateway", "SQS", "DynamoDB", "S3"],
+    "link": "https://ExamPathFinder.com"
+  },
+  {
+    "name": "Jobs Portal + Content Authoring Tool",
+    "company": "Vidya Mantra EduSystems",
+    "role": "Senior Software Developer & Team Lead",
+    "description": "Built the ecosystem around the exam platform - a multilingual jobs and admissions portal extending the product into adjacent verticals, and an internal content authoring tool with tagged MCQ banks that gave the editorial team direct control over question publishing.",
+    "impact": "Reduced manual content operations time by 40%, enabled multilingual reach across the platform's user base",
+    "tech": ["Vue.js", "AWS Lambda", "DynamoDB", "i18n"],
+    "link": null
+  },
+  {
+    "name": "Team Leadership & Knowledge Sharing",
+    "company": "Vidya Mantra EduSystems",
+    "role": "Senior Software Developer & Team Lead",
+    "description": "Led a cross-functional team of 6+ developers - established structured GitHub workflows, code review standards, and 1:1 mentorship cadence. Introduced Knowledge Sharing Fridays, a weekly initiative where engineers presented features they owned, which improved internal documentation and significantly cut onboarding time after team attrition. Took ownership early and was promoted to Senior.",
+    "impact": "6+ engineers led, reduced post-attrition onboarding time, established team rituals that outlasted my tenure",
+    "tech": [],
+    "link": null
   },
   {
     "name": "Langara WMDD Department Site",
@@ -72,12 +81,12 @@
     "link": null
   },
   {
-    "name": "Self-Serve Analytics Dashboard",
-    "company": "Willow Laboratories",
-    "role": "Software Engineer II",
-    "description": "Architected an internal analytics dashboard using Apache Superset with centralized Keycloak authentication, giving sales and marketing teams direct access to their own data.",
-    "impact": "Eliminated manual reporting overhead entirely",
-    "tech": ["Apache Superset", "Keycloak"],
-    "link": null
+    "name": "Strapi Translation Plugin",
+    "company": "Open Source",
+    "role": "Author",
+    "description": "An open-source Strapi plugin that connects any translation API to Strapi for content localization. Built to solve a real gap in the ecosystem while working on multilingual content pipelines.",
+    "impact": "Supports DeepL, OpenAI, and any custom translation API endpoint",
+    "tech": ["Node.js", "Strapi"],
+    "link": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
   }
 ]
