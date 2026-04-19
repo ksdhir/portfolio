@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Pre-commit hook: invoke Claude Code to generate/update tests for staged
+# source files. Opt-in — activate once per clone with:
+#
+#     git config core.hooksPath .githooks
+#
+# Skip ad-hoc:            SKIP_TEST_GEN=1 git commit ...
+# Disable entirely:       git config --unset core.hooksPath
+
+
+
+# set -euo pipefail
+
+# if [[ "${SKIP_TEST_GEN:-0}" == "1" ]]; then
+#   exit 0
+# fi
+
+# # Only care about staged source changes.
+# staged=$(git diff --name-only --cached --diff-filter=ACM \
+#   -- 'app/**' 'lib/**' 'components/**' 'scripts/**' 2>/dev/null || true)
+
+# if [[ -z "$staged" ]]; then
+#   exit 0
+# fi
+
+# if ! command -v claude >/dev/null 2>&1; then
+#   echo "pre-commit: 'claude' CLI not found in PATH — skipping test generation."
+#   echo "pre-commit: install Claude Code or set SKIP_TEST_GEN=1 to silence."
+#   exit 0
+# fi
+
+# echo "pre-commit: staged source changes detected, invoking /generate-tests..."
+# echo "$staged" | sed 's/^/  - /'
+
+# # Headless Claude Code run. The slash command lives in .claude/commands/.
+# # --permission-mode acceptEdits lets it write test files without prompting.
+# # Tests are produced but NOT staged — developer reviews before adding.
+# claude -p "/generate-tests" \
+#   --permission-mode acceptEdits \
+#   --output-format text \
+#   2>&1 | sed 's/^/  /'
+
+# echo "pre-commit: test generation complete. Review new/changed test files,"
+# echo "pre-commit: then 'git add' them and re-run 'git commit' to include."

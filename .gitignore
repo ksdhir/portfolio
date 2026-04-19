@@ -44,3 +44,11 @@ next-env.d.ts
 
 /screenshots
 /docs
+
+# claude code — keep .claude/commands/ tracked, ignore user-local settings
+.claude/settings.local.json
+
+# playwright (when tests land)
+/test-results
+/playwright-report
+/playwright/.cache

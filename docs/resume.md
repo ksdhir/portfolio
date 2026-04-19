@@ -22,6 +22,7 @@ I'm a Senior Software Engineer who builds things that work for real people - exa
 | **DevOps & Infrastructure** | Docker, AWS SAM, Jenkins, Vercel, CI/CD pipelines, Infrastructure as Code |
 | **Databases** | DynamoDB, PostgreSQL, MongoDB, Neo4j (Certified Professional) |
 | **CMS & Platforms** | Strapi, WordPress (Headless) |
+| **Testing** | React Testing Library, Playwright (E2E via Playwright MCP), AI-assisted test authoring, CI-integrated test pipelines |
 
 ---
 
@@ -32,7 +33,8 @@ I'm a Senior Software Engineer who builds things that work for real people - exa
 *Software Engineer II*
 
 - Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline - built a Quarkus microservice in Java to pull and serve content to mobile in real time, eliminating layout inconsistencies and enabling content updates without mobile releases. Built reporting dashboards for the Nutu V2 app, tracking patient progress against personalized health goals with clear goal indicators so users can see at a glance whether they're on track.
-- Led the modernization of the Diabetes Prevention Program (DPP) dashboard - migrated from a legacy codebase to Next.js, restructured the architecture, and introduced unit and integration tests in the Jenkins CI pipeline to shift quality checks upstream before QA.
+- Led the modernization of the Diabetes Prevention Program (DPP) dashboard - migrated from a legacy codebase to Next.js and restructured the architecture around modern server/client boundaries.
+- Introduced the team's first comprehensive test strategy across the DPP and HCP portals - unit, integration (React Testing Library), and E2E (Playwright, scaffolded via Playwright MCP browser exploration) into the Jenkins CI pipeline using AI-assisted authoring workflows. Reduced bugs caught at QA by 60%, shifting QA from repetitive regression sanity to exploratory testing of new features.
 - Owned the Health Care Provider (HCP) dashboard end-to-end - partnered with design to audit UX gaps across error handling, empty states, and user flows, then built the full portal enabling doctors to manage staff, patients, and clinical reports.
 - Standardized the DPP and HCP portals on a shared stack and component library, eliminating cross-portal inconsistencies and cutting UI development time by 20%.
 - Architected a self-serve analytics dashboard using Apache Superset with centralized Keycloak authentication, eliminating manual reporting overhead for sales and marketing teams.

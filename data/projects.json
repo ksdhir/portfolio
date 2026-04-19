@@ -21,9 +21,18 @@
     "name": "DPP Dashboard Migration",
     "company": "Willow Laboratories",
     "role": "Software Engineer II",
-    "description": "Led the modernization of the Diabetes Prevention Program dashboard from a legacy codebase to Next.js. Restructured the architecture and introduced unit and integration tests in the Jenkins CI pipeline to shift quality checks upstream before QA.",
-    "impact": "Modernized stack, restructured architecture, shifted quality left with automated CI testing",
-    "tech": ["Next.js", "Jenkins", "React.js", "TypeScript"],
+    "description": "Led the modernization of the Diabetes Prevention Program dashboard from a legacy codebase to Next.js, restructuring the architecture around modern server/client boundaries.",
+    "impact": "Modernized the stack and restructured the architecture to unblock further feature work",
+    "tech": ["Next.js", "React.js", "TypeScript"],
+    "link": null
+  },
+  {
+    "name": "Test Strategy — DPP + HCP Portals",
+    "company": "Willow Laboratories",
+    "role": "Software Engineer II",
+    "description": "Introduced the team's first comprehensive test strategy across the DPP and HCP portals - unit, integration (React Testing Library), and E2E (Playwright, scaffolded via Playwright MCP browser exploration) wired into the Jenkins CI pipeline. Used AI-assisted authoring workflows to accelerate spec coverage without sacrificing review discipline.",
+    "impact": "Reduced bugs caught at QA by 60%, shifting QA from repetitive regression sanity to exploratory testing of new features",
+    "tech": ["Playwright", "Playwright MCP", "React Testing Library", "Jenkins", "TypeScript"],
     "link": null
   },
   {
