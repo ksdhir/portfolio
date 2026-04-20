@@ -7,7 +7,7 @@ const links = [
   { href: "/", label: "About" },
   { href: "/work", label: "Work" },
   { href: "/resume", label: "Resume" },
-  { href: "/beyond-code", label: "Beyond Code" },
+  // { href: "/beyond-code", label: "Beyond Code" },
 ];
 
 function GitHubIcon() {
