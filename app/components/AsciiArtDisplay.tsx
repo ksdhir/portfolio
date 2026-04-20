@@ -34,12 +34,14 @@ export default function AsciiArtDisplay({
 
   return (
     <div className="flex flex-col items-center gap-6">
-      <pre className="font-mono text-xs leading-tight text-slate-700 overflow-x-auto max-w-full">
-        {piece.art}
-      </pre>
-      <p className="text-sm text-gray-400 italic">
-        {piece.title} — {piece.artist}
-      </p>
+      <div className="rounded-lg bg-black p-6 w-full max-w-2xl overflow-x-auto">
+        <pre className="font-mono text-xs leading-tight text-gray-200 whitespace-pre">
+          {piece.art}
+        </pre>
+        <p className="mt-4 text-xs text-gray-500 italic">
+          {piece.title} — {piece.artist}
+        </p>
+      </div>
       <button
         onClick={next}
         className="rounded border border-slate-200 px-4 py-2 text-sm text-gray-500 transition-colors hover:border-accent hover:text-accent"
