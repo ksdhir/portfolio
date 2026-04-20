@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "work": "Projekte",
+    "resume": "Lebenslauf"
+  },
+  "about": {
+    "heading": "Hallo! Ich bin Karan, Software-Ingenieur.",
+    "paragraphs": [
+      "Ich baue Produkte, die Menschen wirklich nutzen — eine Prüfungsplattform für 217.000 Studierende in Indien, Gesundheits-Apps zur Patientenversorgung und die Dashboards und Plattformen, auf die Teams täglich angewiesen sind. Ich habe in den Bereichen Gesundheitswesen, EdTech und SaaS gearbeitet.",
+      "Ich blühe auf, wenn ich die Lücke zwischen dem, was Menschen anfragen, und dem, was sie wirklich brauchen, schließe. Neben der Technik ist meine größte Stärke das Lesen zwischen den Zeilen — ich bin die Person, der Teams in entscheidenden Momenten vertrauen. Ob ich ein Team leite, eine Idee verteidige, die ein Produkt verändert, oder mit dem Design zusammenarbeite, um die UX zu verfeinern — mich treibt an, das Richtige zu bauen, nicht nur richtig zu bauen.",
+      "Wenn ich nicht programmiere, findet man mich auf einem Radweg, bei einer Wanderung oder in einem guten Buch.",
+      {
+        "text": "Wenn Sie über Möglichkeiten sprechen oder einfach Buchempfehlungen austauschen möchten, schreiben Sie mir eine {email} oder kontaktieren Sie mich auf {LinkedIn}. Ich lebe in Vancouver, BC und bin offen für Umzug.",
+        "links": {
+          "email": "mailto:ksdhir.dev@gmail.com",
+          "LinkedIn": "https://linkedin.com/in/ksdhir"
+        }
+      }
+    ]
+  },
+  "work": {
+    "heading": "Einige meiner Projekte",
+    "projects": [
+      {
+        "name": "Nutu Health App",
+        "company": "Willow Laboratories",
+        "description": "Vorgeschlagen und geleitet: Migration vom WebView-basierten Onboarding zu einer CMS-gesteuerten Content-Pipeline. Einen Quarkus-Microservice in Java entwickelt, um Inhalte in Echtzeit auf Mobilgeräte zu liefern. Reporting-Dashboards für die V2-App erstellt, die den Patientenfortschritt gegenüber personalisierten Gesundheitszielen verfolgen.",
+        "impact": "Layout-Inkonsistenzen beseitigt, Content-Updates ohne Mobile-Releases ermöglicht, Live-Gesundheitsmetriken geliefert",
+        "tech": ["Java", "Quarkus", "Strapi", "Next.js"],
+        "link": null
+      },
+      {
+        "name": "Teststrategie — DPP + HCP-Portale",
+        "company": "Willow Laboratories",
+        "description": "Die erste umfassende Teststrategie des Teams für die DPP- und HCP-Portale eingeführt — Unit-, Integrations- (React Testing Library) und E2E-Tests (Playwright, via Playwright MCP) in die Jenkins-CI-Pipeline integriert. KI-gestützte Workflows zur Beschleunigung der Testabdeckung eingesetzt.",
+        "impact": "QA-Fehler um 60 % reduziert, QA von repetitiver Regressionsprüfung auf exploratives Testen neuer Features verlagert",
+        "tech": ["Playwright", "Playwright MCP", "React Testing Library", "Jenkins", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "HCP-Dashboard",
+        "company": "Willow Laboratories",
+        "description": "Das Health-Care-Provider-Dashboard vollständig verantwortet. Mit dem Design zusammengearbeitet, um UX-Lücken zu schließen (Fehlerbehandlung, leere Zustände, Benutzerflüsse), dann das vollständige Portal geliefert, das Ärzten die Verwaltung von Personal, Patienten und klinischen Berichten ermöglicht.",
+        "impact": "Vollständiges Portal von Grund auf geliefert, UX durch funktionsübergreifende Design-Zusammenarbeit verbessert",
+        "tech": ["Next.js", "React.js", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Portal-Standardisierung",
+        "company": "Willow Laboratories",
+        "description": "Die DPP- und HCP-Portale auf einem gemeinsamen Stack und einer gemeinsamen Komponentenbibliothek standardisiert, Duplikate zwischen zwei separaten Produkten eliminiert.",
+        "impact": "UI-Entwicklungszeit um 20 % reduziert, portalübergreifende Inkonsistenzen beseitigt",
+        "tech": ["React.js", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Self-Service-Analyse-Dashboard",
+        "company": "Willow Laboratories",
+        "description": "Ein internes Analyse-Dashboard mit Apache Superset und zentralisierter Keycloak-Authentifizierung entwickelt, das Vertriebs- und Marketingteams direkten Zugang zu ihren Daten gibt.",
+        "impact": "Manuellen Reporting-Aufwand vollständig eliminiert",
+        "tech": ["Apache Superset", "Keycloak"],
+        "link": null
+      },
+      {
+        "name": "ExamPathFinder.com",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Eine gesamtindische Wettbewerbsprüfungsplattform von Grund auf entwickelt und geliefert — 217.000+ Nutzer mit 273.000+ Fragen auf einem Vue.js-Frontend, gestützt auf einen AWS-Serverless-Stack (API Gateway, Lambda, SQS, DynamoDB, S3).",
+        "impact": "217.000+ Nutzer, 273.000+ Fragen, vollständig serverloser Backend",
+        "tech": ["Vue.js", "AWS Lambda", "API Gateway", "SQS", "DynamoDB", "S3"],
+        "link": "https://ExamPathFinder.com"
+      },
+      {
+        "name": "Jobportal + Content-Authoring-Tool",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Das Ökosystem rund um die Prüfungsplattform aufgebaut — ein mehrsprachiges Job- und Zulassungsportal, das das Produkt in angrenzende Bereiche erweitert, sowie ein internes Content-Authoring-Tool mit getaggten MCQ-Datenbanken, das dem Redaktionsteam direkte Kontrolle über die Fragenveröffentlichung gab.",
+        "impact": "Manuellen Content-Aufwand um 40 % reduziert, mehrsprachige Reichweite in der gesamten Nutzerbasis ermöglicht",
+        "tech": ["Vue.js", "AWS Lambda", "DynamoDB", "i18n"],
+        "link": null
+      },
+      {
+        "name": "Teamführung & Wissensaustausch",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Ein funktionsübergreifendes Team von 6+ Entwicklern geleitet — strukturierte GitHub-Workflows, Code-Review-Standards und regelmäßige 1:1-Mentoring-Gespräche eingeführt. Knowledge Sharing Fridays initiiert: wöchentliche Präsentationen, bei denen Ingenieure ihre Features vorstellen — verbesserte interne Dokumentation und reduzierte Einarbeitungszeit nach Mitarbeiterwechsel. Früh Verantwortung übernommen und zum Senior befördert.",
+        "impact": "6+ Ingenieure geführt, Einarbeitungszeit nach Fluktuation reduziert, Team-Rituale etabliert, die über meine Zeit hinaus bestanden",
+        "tech": [],
+        "link": null
+      },
+      {
+        "name": "Langara WMDD-Abteilungswebsite",
+        "company": "Langara College",
+        "description": "langara-app.ca mit Next.js und WordPress als Headless-CMS entwickelt. Von AWS EC2 zu Vercel migriert, benutzerdefinierte Beitragstypen für Veranstaltungen, Blogs und Studentenprojekte implementiert.",
+        "impact": "Infrastrukturkosten auf 0 $ reduziert, Ladezeiten um 40 % verbessert",
+        "tech": ["Next.js", "WordPress", "Vercel"],
+        "link": null
+      },
+      {
+        "name": "Strapi-Übersetzungs-Plugin",
+        "company": "Open Source",
+        "description": "Ein Open-Source-Strapi-Plugin, das jede Übersetzungs-API mit Strapi für die Content-Lokalisierung verbindet. Entwickelt, um eine echte Lücke im Ökosystem zu schließen, während an mehrsprachigen Content-Pipelines gearbeitet wurde.",
+        "impact": "Unterstützt DeepL, OpenAI und jeden benutzerdefinierten Übersetzungs-API-Endpunkt",
+        "tech": ["Node.js", "Strapi"],
+        "link": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+      }
+    ]
+  },
+  "beyondCode": {
+    "heading": "Jenseits des Codes",
+    "sections": [
+      {
+        "title": "Radfahren",
+        "description": "Es gibt etwas am Radfahren, das den Kopf besser frei macht als jede Debugging-Session. Vancouvers Trails machen es leicht, für ein paar Stunden zu verschwinden und mit frischer Perspektive zurückzukommen.",
+        "photos": [],
+        "photosPlaceholder": "Fotos folgen bald."
+      },
+      {
+        "title": "Wandern",
+        "description": "Von den North Shore Mountains bis wohin der Pfad mich führt. Die besten Ideen kommen meist irgendwo zwischen dem Ausgangspunkt und dem Gipfel.",
+        "photos": [],
+        "photosPlaceholder": "Fotos folgen bald."
+      },
+      {
+        "title": "Lesen",
+        "description": "Ich bin fest davon überzeugt, dass gute Ingenieure viel lesen — nicht nur technische Bücher, sondern alles, was Empathie und Perspektive aufbaut. Tausche gerne Empfehlungen aus.",
+        "photos": []
+      }
+    ]
+  },
+  "resume": {
+    "name": "KARAN SINGH DHIR",
+    "title": "Senior Software-Ingenieur",
+    "contact": [
+      { "text": "+1 236 514 9613" },
+      { "text": "ksdhir.dev@gmail.com", "href": "mailto:ksdhir.dev@gmail.com" },
+      { "text": "linkedin.com/in/ksdhir", "href": "https://linkedin.com/in/ksdhir" },
+      { "text": "github.com/ksdhir", "href": "https://github.com/ksdhir" },
+      { "text": "Vancouver, BC" },
+      { "text": "Offen für Umzug" }
+    ],
+    "summary": "Ich bin ein Senior Software-Ingenieur, der Dinge baut, die für echte Menschen funktionieren — Prüfungsplattformen für 217.000 Studierende, Gesundheits-Apps zur Patientenversorgung und interne Tools, die Teams und Ökosysteme antreiben. Meine größte Stärke liegt nicht in meinem Tech-Stack — es ist das Lesen zwischen den Zeilen, das Verstehen, was Menschen wirklich brauchen, und das Bauen der richtigen Lösung. Ich bin die Person, der Teams vertrauen, die Brücke zwischen Produkt, Design und Engineering zu schlagen. AWS Solutions Architect zertifiziert.",
+    "skills": [
+      { "category": "Sprachen", "items": "TypeScript, JavaScript, Java, Python, HTML, CSS" },
+      { "category": "Frameworks & Runtime", "items": "React.js, Next.js, Vue.js, Node.js, TailwindCSS, GraphQL" },
+      { "category": "Cloud & Serverless", "items": "AWS (Lambda, API Gateway, EC2, RDS, S3, SQS, IAM, WAF, CloudFront) - AWS Solutions Architect zertifiziert" },
+      { "category": "DevOps & Infrastruktur", "items": "Docker, AWS SAM, Jenkins, Vercel, CI/CD-Pipelines, Infrastructure as Code" },
+      { "category": "Datenbanken", "items": "DynamoDB, PostgreSQL, MongoDB, Neo4j (Zertifizierter Profi)" },
+      { "category": "CMS & Plattformen", "items": "Strapi, WordPress (Headless)" },
+      { "category": "Testen", "items": "React Testing Library, Playwright (E2E via Playwright MCP), KI-gestütztes Test-Authoring, CI-integrierte Testpipelines" }
+    ],
+    "experience": [
+      {
+        "company": "Willow Laboratories",
+        "date": "Sep 2024 – Heute",
+        "location": "Vancouver, BC",
+        "position": "Software-Ingenieur II",
+        "bullets": [
+          "Migration vom WebView-basierten Onboarding zu einer CMS-gesteuerten Content-Pipeline vorgeschlagen und geleitet — einen Quarkus-Microservice in Java entwickelt, der Inhalte in Echtzeit auf Mobilgeräte überträgt, Layout-Inkonsistenzen beseitigt und Content-Updates ohne Mobile-Releases ermöglicht. Reporting-Dashboards für die Nutu-V2-App entwickelt, die den Patientenfortschritt gegenüber personalisierten Gesundheitszielen mit klaren Zielindikatoren verfolgen.",
+          "Modernisierung des Diabetes-Präventionsprogramm-Dashboards (DPP) geleitet — von einer veralteten Codebasis zu Next.js migriert und die Architektur auf moderne Server-/Client-Grenzen umstrukturiert.",
+          "Die erste umfassende Teststrategie des Teams für die DPP- und HCP-Portale eingeführt — Unit-, Integrations- (React Testing Library) und E2E-Tests (Playwright) in die Jenkins-CI-Pipeline integriert. QA-Fehler um 60 % reduziert, QA von repetitiver Regressionsprüfung auf exploratives Testen verlagert.",
+          "Das HCP-Dashboard vollständig verantwortet — mit dem Design zusammengearbeitet, um UX-Lücken zu beheben, dann das vollständige Portal geliefert, das Ärzten die Verwaltung von Personal, Patienten und klinischen Berichten ermöglicht.",
+          "Die DPP- und HCP-Portale auf einem gemeinsamen Stack und einer Komponentenbibliothek standardisiert, portalübergreifende Inkonsistenzen eliminiert und die UI-Entwicklungszeit um 20 % reduziert.",
+          "Ein Self-Service-Analyse-Dashboard mit Apache Superset und zentralisierter Keycloak-Authentifizierung entwickelt, das den manuellen Reporting-Aufwand für Vertriebs- und Marketingteams vollständig eliminiert.",
+          {
+            "text": "Unterbrechungsfreie Content-Veröffentlichung durch Implementierung des Draft-Modus in Strapi CMS mit On-Demand-Cache-Invalidierung in Next.js geliefert. Ein {Strapi translation plugin} entwickelt und open-sourcet, das jede Übersetzungs-API (DeepL, OpenAI) mit Strapi für die Lokalisierung verbindet.",
+            "links": {
+              "Strapi translation plugin": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+            }
+          }
+        ]
+      },
+      {
+        "company": "Langara College",
+        "date": "Okt 2023 – Aug 2024",
+        "location": "Vancouver, BC",
+        "position": "Full-Stack-Entwickler",
+        "bullets": [
+          "Infrastrukturkosten auf 0 $ reduziert und Ladezeiten um 40 % verbessert durch Migration der WMDD-Abteilungswebsite von AWS EC2 zu Vercel mit optimierter Caching-Schicht.",
+          "langara-app.ca mit Next.js und WordPress als Headless-CMS entwickelt, benutzerdefinierte Beitragstypen für Veranstaltungen, Blogs und Studentenprojekte mit strukturierten SEO-Metadaten implementiert."
+        ]
+      },
+      {
+        "company": "Vidya Mantra EduSystems Pvt. Ltd.",
+        "date": "Jul 2018 – Aug 2023",
+        "location": "Noida, Indien",
+        "position": "Senior Software-Entwickler & Teamleiter",
+        "bullets": [
+          {
+            "text": "{ExamPathFinder.com} entwickelt und geliefert — eine gesamtindische Wettbewerbsprüfungsplattform für 217.000+ Nutzer mit 273.000+ Fragen, auf Vue.js und AWS Serverless (API Gateway, Lambda, SQS, DynamoDB, S3) aufgebaut.",
+            "links": {
+              "ExamPathFinder.com": "https://ExamPathFinder.com"
+            }
+          },
+          "Das Ökosystem rund um die Plattform aufgebaut — ein mehrsprachiges Job- und Zulassungsportal sowie ein internes Content-Authoring-Tool für getaggte MCQ-Datenbanken, das den manuellen Content-Aufwand um 40 % reduzierte.",
+          "Ein funktionsübergreifendes Team von 6+ Entwicklern geleitet, strukturierte GitHub-Workflows und 1:1-Mentoring eingeführt. Früh Verantwortung übernommen, zum Senior befördert.",
+          "Knowledge Sharing Fridays eingeführt — wöchentliche Team-Präsentationen zu individuellen Features, die die Dokumentation verbesserten, das Team engagiert hielten und die Einarbeitungszeit nach Fluktuation deutlich reduzierten."
+        ]
+      }
+    ],
+    "certifications": [
+      { "name": "AWS Certified Solutions Architect - Associate", "year": "Juli 2024" },
+      { "name": "Neo4j Certified Professional", "year": "2019, erneuert 2024" }
+    ],
+    "education": [
+      {
+        "institution": "Langara College",
+        "date": "2022 – 2023",
+        "degree": "Postgraduales Diplom — Web- und Mobile-App-Design und -Entwicklung"
+      },
+      {
+        "institution": "University of Delhi",
+        "date": "2014 – 2017",
+        "degree": "Bachelor of Commerce — Nebenfach Computeranwendungen im Geschäftsleben"
+      }
+    ]
+  }
+}
