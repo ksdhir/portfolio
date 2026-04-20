@@ -42,8 +42,8 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <header className="w-full px-6 pt-10 pb-6 sm:px-10 lg:px-16">
-      <div className="flex flex-col items-center gap-5 sm:flex-row sm:items-baseline sm:justify-between">
+    <header className="w-full pt-10 pb-6">
+      <div className="mx-auto flex w-full max-w-[52rem] flex-col items-center gap-5 px-8 sm:flex-row sm:items-baseline sm:justify-between">
         <Link
           href="/"
           className="shrink-0 font-sans text-2xl font-bold tracking-tight text-slate-800"

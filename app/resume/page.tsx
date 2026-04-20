@@ -49,7 +49,7 @@ function renderBullet(item: BulletItem, i: number) {
 
 export default function ResumePage() {
   return (
-    <main className="resume-page mx-auto max-w-[52rem] bg-white px-8 py-12 font-sans text-[15px] leading-relaxed text-gray-900 print:max-w-none print:px-0 print:py-0">
+    <div className="resume-page py-12 font-sans text-[15px] leading-relaxed text-gray-900 print:px-0 print:py-0">
       {/* Download button */}
       <div className="mb-6 flex justify-center gap-3 sm:justify-end print:hidden">
         <CopyResumeButton />
@@ -170,6 +170,6 @@ export default function ResumePage() {
 
       {/* Bottom accent bar */}
       <div className="h-1 w-full bg-gray-900" />
-    </main>
+    </div>
   );
 }
