@@ -22,6 +22,20 @@ export const metadata: Metadata = {
   title: "Karan Singh Dhir",
   description:
     "Senior Software Engineer building products that work for real people.",
+  openGraph: {
+    title: "Karan Singh Dhir",
+    description:
+      "Senior Software Engineer building products that work for real people.",
+    siteName: "Karan Singh Dhir",
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Karan Singh Dhir",
+    description:
+      "Senior Software Engineer building products that work for real people.",
+  },
 };
 
 export default function RootLayout({

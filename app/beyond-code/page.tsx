@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
 import content from "@/data/beyond-code.json";
+import { buildMetadata } from "@/app/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Beyond Code - Karan Singh Dhir",
-  description: "Life outside the editor - cycling, hiking, and reading.",
-};
+export const metadata = buildMetadata({
+  title: "Beyond Code – Karan Singh Dhir",
+  description: "Life outside the editor — cycling trails, mountain hikes, and good books.",
+});
 
 export default function BeyondCodePage() {
   return (
