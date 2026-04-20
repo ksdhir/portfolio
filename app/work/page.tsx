@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import projects from "@/data/projects.json";
+import { buildMetadata } from "@/app/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Work - Karan Singh Dhir",
-  description: "Projects and work by Karan Singh Dhir.",
-};
+export const metadata = buildMetadata({
+  title: "Work – Karan Singh Dhir",
+  description:
+    "Projects across healthcare, edtech, and SaaS — from an exam platform serving 217K students to health apps supporting patient care.",
+});
 
 // Group projects by company
 function groupByCompany(

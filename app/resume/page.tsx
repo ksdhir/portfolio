@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
 import resume from "@/data/resume.json";
 import CopyResumeButton from "./CopyResumeButton";
+import { buildMetadata } from "@/app/lib/metadata";
 
-export const metadata: Metadata = {
-  title: `${resume.name} - Resume`,
+export const metadata = buildMetadata({
+  title: `Resume – ${resume.name}`,
   description: resume.summary.slice(0, 160),
-};
+});
 
 type BulletItem =
   | string
