@@ -49,7 +49,6 @@ export default function WorkPage() {
                       project.name
                     )}
                   </h4>
-                  <p className="mt-1 text-sm text-gray-500">{project.role}</p>
                   <p className="mt-2 text-gray-700">{project.description}</p>
                   <p className="mt-2 text-sm text-gray-700">
                     <span className="font-medium text-slate-800">Impact:</span>{" "}
