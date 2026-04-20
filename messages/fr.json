@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "about": "À propos",
+    "work": "Projets",
+    "resume": "CV"
+  },
+  "about": {
+    "heading": "Bonjour ! Je suis Karan, ingénieur logiciel.",
+    "paragraphs": [
+      "Je construis des produits que les gens utilisent vraiment — une plateforme d'examens au service de 217 000 étudiants à travers l'Inde, des applications de santé qui soutiennent les soins aux patients, et les tableaux de bord sur lesquels les équipes s'appuient dans leur travail. J'ai travaillé dans les secteurs de la santé, de l'edtech et du SaaS.",
+      "Je m'épanouis quand je comble l'écart entre ce que les gens demandent et ce dont ils ont réellement besoin. Au-delà de la technique, ma plus grande force, c'est de lire entre les lignes — je suis la personne à qui les équipes font confiance quand ça compte. Que ce soit en dirigeant une équipe, en défendant une idée qui transforme un produit, ou en collaborant avec le design pour affiner l'expérience utilisateur, ce qui me motive, c'est de construire la bonne chose, pas seulement de bien construire.",
+      "Quand je ne code pas, vous me trouverez sur un sentier de vélo, en randonnée, ou plongé dans un bon livre.",
+      {
+        "text": "Si vous souhaitez discuter d'opportunités ou simplement échanger des recommandations de livres, n'hésitez pas à m'envoyer un {email} ou à me contacter sur {LinkedIn}. Je suis basé à Vancouver, en Colombie-Britannique, et ouvert à la relocalisation.",
+        "links": {
+          "email": "mailto:ksdhir.dev@gmail.com",
+          "LinkedIn": "https://linkedin.com/in/ksdhir"
+        }
+      }
+    ]
+  },
+  "work": {
+    "heading": "Quelques-uns de mes projets",
+    "projects": [
+      {
+        "name": "Application Nutu Health",
+        "company": "Willow Laboratories",
+        "description": "Proposé et dirigé la migration de l'onboarding basé sur WebView vers un pipeline de contenu piloté par CMS. Construit un microservice Quarkus en Java pour récupérer et servir le contenu sur mobile en temps réel. Développé des tableaux de bord de reporting pour l'application V2, suivant la progression des patients par rapport à leurs objectifs de santé personnalisés.",
+        "impact": "Incohérences de mise en page éliminées, mises à jour de contenu sans déploiement mobile, reporting des métriques de santé en direct",
+        "tech": ["Java", "Quarkus", "Strapi", "Next.js"],
+        "link": null
+      },
+      {
+        "name": "Stratégie de Tests — Portails DPP + HCP",
+        "company": "Willow Laboratories",
+        "description": "Introduit la première stratégie de test complète de l'équipe sur les portails DPP et HCP — tests unitaires, d'intégration (React Testing Library) et E2E (Playwright, mis en place via l'exploration Playwright MCP) intégrés dans le pipeline CI Jenkins. Utilisé des workflows de rédaction assistés par IA pour accélérer la couverture des spécifications.",
+        "impact": "Bugs détectés en QA réduits de 60%, QA passée des tests de régression répétitifs aux tests exploratoires de nouvelles fonctionnalités",
+        "tech": ["Playwright", "Playwright MCP", "React Testing Library", "Jenkins", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Tableau de Bord HCP",
+        "company": "Willow Laboratories",
+        "description": "Pris en charge le tableau de bord Prestataire de Soins de Santé (HCP) de bout en bout. Partenariat avec le design pour reconstruire l'UX (gestion des erreurs, états vides, parcours utilisateurs), puis livraison du portail complet permettant aux médecins de gérer le personnel, les patients et les rapports cliniques.",
+        "impact": "Portail complet livré de zéro, UX améliorée grâce à la collaboration design transversale",
+        "tech": ["Next.js", "React.js", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Standardisation des Portails",
+        "company": "Willow Laboratories",
+        "description": "Standardisé les portails DPP et HCP sur une stack partagée et une bibliothèque de composants, éliminant la duplication entre deux produits distincts.",
+        "impact": "Temps de développement UI réduit de 20%, incohérences inter-portails éliminées",
+        "tech": ["React.js", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Tableau de Bord Analytique en Libre-Service",
+        "company": "Willow Laboratories",
+        "description": "Conçu un tableau de bord analytique interne utilisant Apache Superset avec authentification Keycloak centralisée, donnant aux équipes commerciales et marketing un accès direct à leurs propres données.",
+        "impact": "Charge de reporting manuel entièrement éliminée",
+        "tech": ["Apache Superset", "Keycloak"],
+        "link": null
+      },
+      {
+        "name": "ExamPathFinder.com",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Conçu et livré une plateforme d'examens compétitifs à l'échelle nationale — servant 217 000+ utilisateurs avec 273 000+ questions sur un frontend Vue.js soutenu par une stack AWS serverless (API Gateway, Lambda, SQS, DynamoDB, S3).",
+        "impact": "217 000+ utilisateurs, 273 000+ questions, backend entièrement serverless",
+        "tech": ["Vue.js", "AWS Lambda", "API Gateway", "SQS", "DynamoDB", "S3"],
+        "link": "https://ExamPathFinder.com"
+      },
+      {
+        "name": "Portail d'Emplois + Outil de Création de Contenu",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Construit l'écosystème autour de la plateforme d'examens — un portail multilingue d'offres d'emploi et d'admissions étendant le produit vers des domaines adjacents, et un outil de création de contenu interne avec des banques de QCM étiquetés donnant à l'équipe éditoriale un contrôle direct sur la publication des questions.",
+        "impact": "Temps des opérations de contenu manuel réduit de 40%, portée multilingue étendue sur toute la base d'utilisateurs",
+        "tech": ["Vue.js", "AWS Lambda", "DynamoDB", "i18n"],
+        "link": null
+      },
+      {
+        "name": "Leadership d'Équipe & Partage de Connaissances",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Dirigé une équipe interfonctionnelle de 6+ développeurs — établi des workflows GitHub structurés, des normes de revue de code et un cadence de mentorat individuel. Introduit les Knowledge Sharing Fridays, une initiative hebdomadaire où les ingénieurs présentaient leurs fonctionnalités, améliorant la documentation interne et réduisant significativement le temps d'onboarding après l'attrition. Pris des responsabilités rapidement et promu Senior.",
+        "impact": "6+ ingénieurs dirigés, temps d'onboarding post-attrition réduit, rituels d'équipe établis qui ont perduré après mon départ",
+        "tech": [],
+        "link": null
+      },
+      {
+        "name": "Site du Département WMDD de Langara",
+        "company": "Langara College",
+        "description": "Développé langara-app.ca avec Next.js et WordPress comme CMS headless. Migré d'AWS EC2 vers Vercel, implémentant des types de publications personnalisés pour les événements, blogs et projets étudiants.",
+        "impact": "Coûts d'infrastructure réduits à 0$, temps de chargement améliorés de 40%",
+        "tech": ["Next.js", "WordPress", "Vercel"],
+        "link": null
+      },
+      {
+        "name": "Plugin de Traduction Strapi",
+        "company": "Open Source",
+        "description": "Un plugin Strapi open-source qui connecte toute API de traduction à Strapi pour la localisation du contenu. Construit pour combler un vrai manque dans l'écosystème lors du travail sur des pipelines de contenu multilingues.",
+        "impact": "Compatible avec DeepL, OpenAI, et tout endpoint d'API de traduction personnalisé",
+        "tech": ["Node.js", "Strapi"],
+        "link": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+      }
+    ]
+  },
+  "beyondCode": {
+    "heading": "Au-delà du Code",
+    "sections": [
+      {
+        "title": "Vélo",
+        "description": "Il y a quelque chose dans le fait d'être sur un vélo qui libère l'esprit mieux que n'importe quelle session de débogage. Les sentiers de Vancouver permettent de disparaître quelques heures et de revenir avec une perspective fraîche.",
+        "photos": [],
+        "photosPlaceholder": "Photos bientôt disponibles."
+      },
+      {
+        "title": "Randonnée",
+        "description": "Des montagnes de North Shore jusqu'où le sentier me mène. Les meilleures idées surgissent généralement quelque part entre le départ et le sommet.",
+        "photos": [],
+        "photosPlaceholder": "Photos bientôt disponibles."
+      },
+      {
+        "title": "Lecture",
+        "description": "Je suis fermement convaincu que les bons ingénieurs lisent beaucoup — pas seulement des livres techniques, mais tout ce qui développe l'empathie et la perspective. Toujours heureux d'échanger des recommandations.",
+        "photos": []
+      }
+    ]
+  },
+  "resume": {
+    "name": "KARAN SINGH DHIR",
+    "title": "Ingénieur Logiciel Senior",
+    "contact": [
+      { "text": "+1 236 514 9613" },
+      { "text": "ksdhir.dev@gmail.com", "href": "mailto:ksdhir.dev@gmail.com" },
+      { "text": "linkedin.com/in/ksdhir", "href": "https://linkedin.com/in/ksdhir" },
+      { "text": "github.com/ksdhir", "href": "https://github.com/ksdhir" },
+      { "text": "Vancouver, BC" },
+      { "text": "Ouvert à la relocalisation" }
+    ],
+    "summary": "Je suis un Ingénieur Logiciel Senior qui construit des choses qui fonctionnent pour de vraies personnes — des plateformes d'examens utilisées par 217 000 étudiants, des applications de santé qui soutiennent les soins aux patients, et des outils internes qui alimentent les équipes et les écosystèmes derrière eux. Ma plus grande compétence n'est pas dans ma stack technique — c'est de lire entre les lignes, comprendre ce dont les gens ont réellement besoin, et construire la bonne chose. Je suis la personne en qui les équipes ont confiance pour faire le pont entre le produit, le design et l'ingénierie. Certifié AWS Solutions Architect.",
+    "skills": [
+      { "category": "Langages", "items": "TypeScript, JavaScript, Java, Python, HTML, CSS" },
+      { "category": "Frameworks & Runtime", "items": "React.js, Next.js, Vue.js, Node.js, TailwindCSS, GraphQL" },
+      { "category": "Cloud & Serverless", "items": "AWS (Lambda, API Gateway, EC2, RDS, S3, SQS, IAM, WAF, CloudFront) - AWS Solutions Architect Certifié" },
+      { "category": "DevOps & Infrastructure", "items": "Docker, AWS SAM, Jenkins, Vercel, pipelines CI/CD, Infrastructure as Code" },
+      { "category": "Bases de données", "items": "DynamoDB, PostgreSQL, MongoDB, Neo4j (Professionnel Certifié)" },
+      { "category": "CMS & Plateformes", "items": "Strapi, WordPress (Headless)" },
+      { "category": "Tests", "items": "React Testing Library, Playwright (E2E via Playwright MCP), rédaction de tests assistée par IA, pipelines de tests intégrés en CI" }
+    ],
+    "experience": [
+      {
+        "company": "Willow Laboratories",
+        "date": "Sep 2024 - Présent",
+        "location": "Vancouver, BC",
+        "position": "Ingénieur Logiciel II",
+        "bullets": [
+          "Proposé et dirigé la migration de l'onboarding basé sur WebView vers un pipeline de contenu piloté par CMS — construit un microservice Quarkus en Java pour récupérer et servir le contenu sur mobile en temps réel, éliminant les incohérences de mise en page et permettant les mises à jour de contenu sans déploiement mobile. Développé des tableaux de bord de reporting pour l'application Nutu V2, suivant la progression des patients par rapport à leurs objectifs de santé personnalisés.",
+          "Dirigé la modernisation du tableau de bord du Programme de Prévention du Diabète (DPP) — migré d'une base de code héritée vers Next.js et restructuré l'architecture autour des frontières modernes serveur/client.",
+          "Introduit la première stratégie de test complète de l'équipe sur les portails DPP et HCP — tests unitaires, d'intégration (React Testing Library) et E2E (Playwright) dans le pipeline CI Jenkins. Réduit les bugs détectés en QA de 60%, faisant passer la QA des tests de régression répétitifs aux tests exploratoires de nouvelles fonctionnalités.",
+          "Pris en charge le tableau de bord HCP de bout en bout — partenariat avec le design pour auditer les lacunes UX, puis construction du portail complet permettant aux médecins de gérer le personnel, les patients et les rapports cliniques.",
+          "Standardisé les portails DPP et HCP sur une stack partagée et une bibliothèque de composants, éliminant les incohérences inter-portails et réduisant le temps de développement UI de 20%.",
+          "Conçu un tableau de bord analytique en libre-service utilisant Apache Superset avec authentification Keycloak centralisée, éliminant la charge de reporting manuel pour les équipes commerciales et marketing.",
+          {
+            "text": "Livré la publication de contenu sans interruption en implémentant le mode brouillon dans Strapi CMS avec invalidation de cache à la demande dans Next.js. Développé et open-sourcé un {Strapi translation plugin} pour connecter toute API de traduction (DeepL, OpenAI) à Strapi pour la localisation.",
+            "links": {
+              "Strapi translation plugin": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+            }
+          }
+        ]
+      },
+      {
+        "company": "Langara College",
+        "date": "Oct 2023 - Août 2024",
+        "location": "Vancouver, BC",
+        "position": "Développeur Full-Stack",
+        "bullets": [
+          "Réduit les coûts d'infrastructure à 0$ et les temps de chargement de 40% en migrant le site du département WMDD d'AWS EC2 vers Vercel avec une couche de cache optimisée.",
+          "Développé langara-app.ca avec Next.js et WordPress comme CMS headless, implémentant des types de publications personnalisés pour les événements, blogs et projets étudiants avec des métadonnées structurées pour le SEO."
+        ]
+      },
+      {
+        "company": "Vidya Mantra EduSystems Pvt. Ltd.",
+        "date": "Juil 2018 - Août 2023",
+        "location": "Noida, Inde",
+        "position": "Développeur Logiciel Senior & Chef d'Équipe",
+        "bullets": [
+          {
+            "text": "Conçu et livré {ExamPathFinder.com} — une plateforme d'examens compétitifs à l'échelle nationale servant 217 000+ utilisateurs avec 273 000+ questions, construite sur Vue.js et AWS Serverless (API Gateway, Lambda, SQS, DynamoDB, S3).",
+            "links": {
+              "ExamPathFinder.com": "https://ExamPathFinder.com"
+            }
+          },
+          "Construit l'écosystème autour de la plateforme — un portail multilingue d'offres d'emploi et d'admissions, et un outil de création de contenu interne pour les banques de QCM étiquetés qui a réduit le temps des opérations de contenu manuel de 40%.",
+          "Dirigé une équipe interfonctionnelle de 6+ développeurs, établissant des workflows GitHub structurés et du mentorat individuel. Pris des responsabilités rapidement, promu Senior.",
+          "Introduit les Knowledge Sharing Fridays — présentations hebdomadaires de l'équipe sur les fonctionnalités individuelles qui ont amélioré la documentation, maintenu l'équipe engagée et réduit significativement le temps d'onboarding après l'attrition."
+        ]
+      }
+    ],
+    "certifications": [
+      { "name": "AWS Certified Solutions Architect - Associate", "year": "Juillet 2024" },
+      { "name": "Neo4j Certified Professional", "year": "2019, renouvelé 2024" }
+    ],
+    "education": [
+      {
+        "institution": "Langara College",
+        "date": "2022 - 2023",
+        "degree": "Diplôme de 2e cycle — Conception et Développement d'Applications Web et Mobile"
+      },
+      {
+        "institution": "University of Delhi",
+        "date": "2014 - 2017",
+        "degree": "Licence en Commerce — Mineure en Applications Informatiques en Gestion"
+      }
+    ]
+  }
+}

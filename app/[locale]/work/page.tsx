@@ -1,32 +1,55 @@
-import projects from "@/data/projects.json";
-import { buildMetadata } from "@/app/lib/metadata";
+import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { buildMetadata } from '@/app/lib/metadata'
 
-export const metadata = buildMetadata({
-  title: "Work – Karan Singh Dhir",
-  description:
-    "Projects across healthcare, edtech, and SaaS — from an exam platform serving 217K students to health apps supporting patient care.",
-});
-
-// Group projects by company
-function groupByCompany(
-  items: typeof projects
-): Record<string, typeof projects> {
-  const groups: Record<string, typeof projects> = {};
-  for (const project of items) {
-    const key = project.company;
-    if (!groups[key]) groups[key] = [];
-    groups[key].push(project);
-  }
-  return groups;
+type Project = {
+  name: string
+  company: string
+  description: string
+  impact: string
+  tech: string[]
+  link: string | null
 }
 
-export default function WorkPage() {
-  const grouped = groupByCompany(projects);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  const isEn = locale === 'en'
+  return buildMetadata({
+    title: isEn ? 'Work – Karan Singh Dhir' : 'Projets – Karan Singh Dhir',
+    description: isEn
+      ? 'Projects across healthcare, edtech, and SaaS — from an exam platform serving 217K students to health apps supporting patient care.'
+      : "Projets dans la santé, l'edtech et le SaaS — d'une plateforme d'examens pour 217 000 étudiants aux applications de santé.",
+  })
+}
+
+function groupByCompany(items: Project[]): Record<string, Project[]> {
+  const groups: Record<string, Project[]> = {}
+  for (const project of items) {
+    if (!groups[project.company]) groups[project.company] = []
+    groups[project.company].push(project)
+  }
+  return groups
+}
+
+export default async function WorkPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
+  const t = await getTranslations('work')
+  const projects = t.raw('projects') as Project[]
+  const grouped = groupByCompany(projects)
 
   return (
     <article className="py-10">
       <h2 className="mb-10 font-[family-name:var(--font-playfair)] text-3xl font-bold tracking-tight text-slate-800 md:text-4xl">
-        Some of my work
+        {t('heading')}
       </h2>
 
       <div className="space-y-12">
@@ -52,7 +75,7 @@ export default function WorkPage() {
                   </h4>
                   <p className="mt-2 text-gray-700">{project.description}</p>
                   <p className="mt-2 text-sm text-gray-700">
-                    <span className="font-medium text-slate-800">Impact:</span>{" "}
+                    <span className="font-medium text-slate-800">Impact:</span>{' '}
                     {project.impact}
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
@@ -72,5 +95,5 @@ export default function WorkPage() {
         ))}
       </div>
     </article>
-  );
+  )
 }

@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "about": "About",
+    "work": "Work",
+    "resume": "Resume"
+  },
+  "about": {
+    "heading": "Hello! I'm Karan and I'm a software engineer.",
+    "paragraphs": [
+      "I build products that people actually use - an exam platform serving 217K students across India, health apps that support patient care, and the dashboards and platforms that teams rely on to do their work. I've worked across healthcare, edtech, and SaaS.",
+      "I thrive when I'm bridging the gap between what people ask for and what they actually need. Beyond the tech, my strongest skill is reading between the lines - I'm the person teams put in when it matters. Whether it's leading a team, pitching an idea that changes how a product works, or sitting with design to get the UX right, I care about building the right thing, not just building things right.",
+      "When I'm not coding, you'll find me on a cycling trail, out on a hike, or lost in a good book.",
+      {
+        "text": "If you'd like to talk about opportunities or just swap book recommendations, feel free to shoot me an {email} or reach out on {LinkedIn}. I'm based in Vancouver, BC and open to relocating.",
+        "links": {
+          "email": "mailto:ksdhir.dev@gmail.com",
+          "LinkedIn": "https://linkedin.com/in/ksdhir"
+        }
+      }
+    ]
+  },
+  "work": {
+    "heading": "Some of my work",
+    "projects": [
+      {
+        "name": "Nutu Health App",
+        "company": "Willow Laboratories",
+        "description": "Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline. Built a Quarkus microservice in Java to pull and serve content to mobile in real time. Also built reporting dashboards for the V2 app, tracking patient progress against personalized health goals with clear indicators so users can see at a glance whether they're on track.",
+        "impact": "Eliminated layout inconsistencies, enabled content updates without mobile releases, delivered live health metrics reporting",
+        "tech": ["Java", "Quarkus", "Strapi", "Next.js"],
+        "link": null
+      },
+      {
+        "name": "Test Strategy — DPP + HCP Portals",
+        "company": "Willow Laboratories",
+        "description": "Introduced the team's first comprehensive test strategy across the DPP and HCP portals - unit, integration (React Testing Library), and E2E (Playwright, scaffolded via Playwright MCP browser exploration) wired into the Jenkins CI pipeline. Used AI-assisted authoring workflows to accelerate spec coverage without sacrificing review discipline.",
+        "impact": "Reduced bugs caught at QA by 60%, shifting QA from repetitive regression sanity to exploratory testing of new features",
+        "tech": ["Playwright", "Playwright MCP", "React Testing Library", "Jenkins", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "HCP Dashboard",
+        "company": "Willow Laboratories",
+        "description": "Owned the Health Care Provider dashboard end-to-end. Partnered with design to rebuild UX (error handling, empty states, user flows), then shipped the full portal enabling doctors to manage staff, patients, and clinical reports.",
+        "impact": "Delivered a complete portal from scratch, improved UX through cross-functional design collaboration",
+        "tech": ["Next.js", "React.js", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Portal Standardization",
+        "company": "Willow Laboratories",
+        "description": "Standardized the DPP and HCP portals on a shared stack and component library, eliminating duplication across two separate products.",
+        "impact": "Cut UI development time by 20%, eliminated cross-portal inconsistencies",
+        "tech": ["React.js", "TypeScript"],
+        "link": null
+      },
+      {
+        "name": "Self-Serve Analytics Dashboard",
+        "company": "Willow Laboratories",
+        "description": "Architected an internal analytics dashboard using Apache Superset with centralized Keycloak authentication, giving sales and marketing teams direct access to their own data.",
+        "impact": "Eliminated manual reporting overhead entirely",
+        "tech": ["Apache Superset", "Keycloak"],
+        "link": null
+      },
+      {
+        "name": "ExamPathFinder.com",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Architected and shipped a pan-India competitive exam platform from the ground up - serving 217K+ users with 273K+ questions on a Vue.js frontend backed by an AWS serverless stack (API Gateway, Lambda, SQS, DynamoDB, S3).",
+        "impact": "217K+ users, 273K+ questions, fully serverless backend",
+        "tech": ["Vue.js", "AWS Lambda", "API Gateway", "SQS", "DynamoDB", "S3"],
+        "link": "https://ExamPathFinder.com"
+      },
+      {
+        "name": "Jobs Portal + Content Authoring Tool",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Built the ecosystem around the exam platform - a multilingual jobs and admissions portal extending the product into adjacent verticals, and an internal content authoring tool with tagged MCQ banks that gave the editorial team direct control over question publishing.",
+        "impact": "Reduced manual content operations time by 40%, enabled multilingual reach across the platform's user base",
+        "tech": ["Vue.js", "AWS Lambda", "DynamoDB", "i18n"],
+        "link": null
+      },
+      {
+        "name": "Team Leadership & Knowledge Sharing",
+        "company": "Vidya Mantra EduSystems",
+        "description": "Led a cross-functional team of 6+ developers - established structured GitHub workflows, code review standards, and 1:1 mentorship cadence. Introduced Knowledge Sharing Fridays, a weekly initiative where engineers presented features they owned, which improved internal documentation and significantly cut onboarding time after team attrition. Took ownership early and was promoted to Senior.",
+        "impact": "6+ engineers led, reduced post-attrition onboarding time, established team rituals that outlasted my tenure",
+        "tech": [],
+        "link": null
+      },
+      {
+        "name": "Langara WMDD Department Site",
+        "company": "Langara College",
+        "description": "Built langara-app.ca using Next.js with WordPress as a headless CMS. Migrated from AWS EC2 to Vercel, implementing custom post types for events, blogs, and student projects.",
+        "impact": "Infrastructure costs reduced to $0, page load times improved by 40%",
+        "tech": ["Next.js", "WordPress", "Vercel"],
+        "link": null
+      },
+      {
+        "name": "Strapi Translation Plugin",
+        "company": "Open Source",
+        "description": "An open-source Strapi plugin that connects any translation API to Strapi for content localization. Built to solve a real gap in the ecosystem while working on multilingual content pipelines.",
+        "impact": "Supports DeepL, OpenAI, and any custom translation API endpoint",
+        "tech": ["Node.js", "Strapi"],
+        "link": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+      }
+    ]
+  },
+  "beyondCode": {
+    "heading": "Beyond Code",
+    "sections": [
+      {
+        "title": "Cycling",
+        "description": "There's something about being on a bike that clears the head better than any debugging session. Vancouver's trails make it easy to disappear for a few hours and come back with a fresh perspective.",
+        "photos": [],
+        "photosPlaceholder": "Photos coming soon."
+      },
+      {
+        "title": "Hiking",
+        "description": "From the North Shore mountains to wherever the trail takes me. The best ideas usually show up somewhere between the trailhead and the summit.",
+        "photos": [],
+        "photosPlaceholder": "Photos coming soon."
+      },
+      {
+        "title": "Reading",
+        "description": "I'm a firm believer that good engineers read widely - not just technical books, but anything that builds empathy and perspective. Always happy to swap recommendations.",
+        "photos": []
+      }
+    ]
+  },
+  "resume": {
+    "name": "KARAN SINGH DHIR",
+    "title": "Senior Software Engineer",
+    "contact": [
+      { "text": "+1 236 514 9613" },
+      { "text": "ksdhir.dev@gmail.com", "href": "mailto:ksdhir.dev@gmail.com" },
+      { "text": "linkedin.com/in/ksdhir", "href": "https://linkedin.com/in/ksdhir" },
+      { "text": "github.com/ksdhir", "href": "https://github.com/ksdhir" },
+      { "text": "Vancouver, BC" },
+      { "text": "Open to Relocate" }
+    ],
+    "summary": "I'm a Senior Software Engineer who builds things that work for real people - exam platforms used by 217K students, health apps that support patient care and individual fitness, and internal tools that power the teams and ecosystems behind them. My strongest skill isn't in my tech stack - it's reading between the lines, understanding what people actually need, and building the right thing. I'm the person teams trust to bridge the gap between product, design, and engineering and make sure nothing falls through the cracks. AWS Solutions Architect certified.",
+    "skills": [
+      { "category": "Languages", "items": "TypeScript, JavaScript, Java, Python, HTML, CSS" },
+      { "category": "Frameworks & Runtime", "items": "React.js, Next.js, Vue.js, Node.js, TailwindCSS, GraphQL" },
+      { "category": "Cloud & Serverless", "items": "AWS (Lambda, API Gateway, EC2, RDS, S3, SQS, IAM, WAF, CloudFront) - AWS Solutions Architect Certified" },
+      { "category": "DevOps & Infrastructure", "items": "Docker, AWS SAM, Jenkins, Vercel, CI/CD pipelines, Infrastructure as Code" },
+      { "category": "Databases", "items": "DynamoDB, PostgreSQL, MongoDB, Neo4j (Certified Professional)" },
+      { "category": "CMS & Platforms", "items": "Strapi, WordPress (Headless)" },
+      { "category": "Testing", "items": "React Testing Library, Playwright (E2E via Playwright MCP), AI-assisted test authoring, CI-integrated test pipelines" }
+    ],
+    "experience": [
+      {
+        "company": "Willow Laboratories",
+        "date": "Sep 2024 - Present",
+        "location": "Vancouver, BC",
+        "position": "Software Engineer II",
+        "bullets": [
+          "Pitched and led the migration from WebView-based onboarding to a CMS-driven content pipeline - built a Quarkus microservice in Java to pull and serve content to mobile in real time, eliminating layout inconsistencies and enabling content updates without mobile releases. Built reporting dashboards for the Nutu V2 app, tracking patient progress against personalized health goals with clear goal indicators so users can see at a glance whether they're on track.",
+          "Led the modernization of the Diabetes Prevention Program (DPP) dashboard - migrated from a legacy codebase to Next.js and restructured the architecture around modern server/client boundaries.",
+          "Introduced the team's first comprehensive test strategy across the DPP and HCP portals - unit, integration (React Testing Library), and E2E (Playwright, scaffolded via Playwright MCP browser exploration) into the Jenkins CI pipeline using AI-assisted authoring workflows. Reduced bugs caught at QA by 60%, shifting QA from repetitive regression sanity to exploratory testing of new features.",
+          "Owned the Health Care Provider (HCP) dashboard end-to-end - partnered with design to audit UX gaps across error handling, empty states, and user flows, then built the full portal enabling doctors to manage staff, patients, and clinical reports.",
+          "Standardized the DPP and HCP portals on a shared stack and component library, eliminating cross-portal inconsistencies and cutting UI development time by 20%.",
+          "Architected a self-serve analytics dashboard using Apache Superset with centralized Keycloak authentication, eliminating manual reporting overhead for sales and marketing teams.",
+          {
+            "text": "Delivered zero-downtime content publishing by implementing draft mode in Strapi CMS with on-demand cache invalidation in Next.js. Built and open-sourced a {Strapi translation plugin} to connect any translation API (DeepL, OpenAI) to Strapi for localization.",
+            "links": {
+              "Strapi translation plugin": "https://github.com/ksdhir/strapi-provider-translate-custom-api"
+            }
+          }
+        ]
+      },
+      {
+        "company": "Langara College",
+        "date": "Oct 2023 - Aug 2024",
+        "location": "Vancouver, BC",
+        "position": "Full-Stack Developer",
+        "bullets": [
+          "Reduced infrastructure costs to $0 and page load times by 40% by migrating the WMDD department site from AWS EC2 to Vercel with an optimized caching layer.",
+          "Developed langara-app.ca using Next.js with WordPress as a headless CMS, implementing custom post types for events, blogs, and student projects with structured metadata for SEO."
+        ]
+      },
+      {
+        "company": "Vidya Mantra EduSystems Pvt. Ltd.",
+        "date": "Jul 2018 - Aug 2023",
+        "location": "Noida, India",
+        "position": "Senior Software Developer & Team Lead",
+        "bullets": [
+          {
+            "text": "Architected and shipped {ExamPathFinder.com} - a pan-India competitive exam platform serving 217K+ users with 273K+ questions, built on Vue.js and AWS Serverless (API Gateway, Lambda, SQS, DynamoDB, S3).",
+            "links": {
+              "ExamPathFinder.com": "https://ExamPathFinder.com"
+            }
+          },
+          "Built the ecosystem around the platform - a multilingual jobs and admissions portal, and an internal content authoring tool for tagged MCQ banks that reduced manual content operations time by 40%.",
+          "Led a cross-functional team of 6+ developers, establishing structured GitHub workflows and 1:1 mentorship. Took ownership early, was promoted to Senior.",
+          "Introduced Knowledge Sharing Fridays - weekly team presentations on individual features that improved documentation, kept the team engaged, and significantly reduced onboarding time after attrition."
+        ]
+      }
+    ],
+    "certifications": [
+      { "name": "AWS Certified Solutions Architect - Associate", "year": "July 2024" },
+      { "name": "Neo4j Certified Professional", "year": "2019, renewed 2024" }
+    ],
+    "education": [
+      {
+        "institution": "Langara College",
+        "date": "2022 - 2023",
+        "degree": "Post-Degree Diploma - Web and Mobile App Design and Development"
+      },
+      {
+        "institution": "University of Delhi",
+        "date": "2014 - 2017",
+        "degree": "Bachelor of Commerce - Minor in Computer Applications in Business"
+      }
+    ]
+  }
+}

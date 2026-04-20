@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { OgCard } from './lib/og'
+import { OgCard } from '../lib/og'
 
 export const runtime = 'edge'
 export const alt = 'Karan Singh Dhir – Senior Software Engineer'
