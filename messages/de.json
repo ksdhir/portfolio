@@ -4,6 +4,12 @@
     "work": "Projekte",
     "resume": "Lebenslauf"
   },
+  "notFound": {
+    "heading": "Seite nicht gefunden.",
+    "subtext": "Was Sie suchen, existiert nicht — kein Problem, genießen Sie etwas ASCII-Kunst.",
+    "artLabel": "Noch eine",
+    "home": "← Zurück zur Startseite"
+  },
   "about": {
     "heading": "Hallo! Ich bin Karan, Software-Ingenieur.",
     "paragraphs": [

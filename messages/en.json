@@ -4,6 +4,12 @@
     "work": "Work",
     "resume": "Resume"
   },
+  "notFound": {
+    "heading": "Page not found.",
+    "subtext": "What you're looking for doesn't exist — no problem, enjoy some ASCII art.",
+    "artLabel": "Try another",
+    "home": "← Back home"
+  },
   "about": {
     "heading": "Hello! I'm Karan and I'm a software engineer.",
     "paragraphs": [

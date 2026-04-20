@@ -4,6 +4,12 @@
     "work": "Projets",
     "resume": "CV"
   },
+  "notFound": {
+    "heading": "Page introuvable.",
+    "subtext": "Ce que vous cherchez n'existe pas — pas de problème, profitez d'un peu d'art ASCII.",
+    "artLabel": "En voir une autre",
+    "home": "← Retour à l'accueil"
+  },
   "about": {
     "heading": "Bonjour ! Je suis Karan, ingénieur logiciel.",
     "paragraphs": [
