@@ -16,9 +16,14 @@ export default function CopyResumeButton() {
   return (
     <button
       onClick={handleCopy}
-      className="rounded border border-accent/30 px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent/5"
+      className="grid rounded border border-accent/30 px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent/5"
     >
-      {copied ? "Copied!" : "Copy to Clipboard"}
+      <span className="col-start-1 row-start-1 invisible" aria-hidden>
+        Copy to Clipboard
+      </span>
+      <span className="col-start-1 row-start-1">
+        {copied ? "Copied!" : "Copy to Clipboard"}
+      </span>
     </button>
   );
 }
