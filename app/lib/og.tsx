@@ -1,4 +1,4 @@
-export function OgCard({ pageLabel }: { pageLabel?: string }) {
+export function OgCard({ pageLabel, subtitle }: { pageLabel?: string; subtitle?: string }) {
   return (
     <div
       style={{
@@ -56,7 +56,7 @@ export function OgCard({ pageLabel }: { pageLabel?: string }) {
           display: 'flex',
         }}
       >
-        Senior Software Engineer · Vancouver, BC
+        {subtitle ?? 'Senior Software Engineer · Vancouver, BC'}
       </div>
     </div>
   )
