@@ -35,14 +35,14 @@ export default function Nav() {
   const t = useTranslations('nav')
   const locale = useLocale()
   const pathname = usePathname()
+  // const otherLocale = locale === 'en' ? 'fr' : 'en'
+  void locale // suppress unused warning while switcher is commented out
 
   const links = [
     { href: '/' as const, label: t('about') },
     { href: '/work' as const, label: t('work') },
     { href: '/resume' as const, label: t('resume') },
   ]
-
-  const otherLocale = locale === 'en' ? 'fr' : 'en'
 
   return (
     <header className="w-full pt-10 pb-6">
@@ -71,6 +71,7 @@ export default function Nav() {
           </nav>
           <div className="flex items-center gap-4 sm:ml-6">
             <span className="hidden h-4 w-px bg-gray-300 sm:block" />
+            {/* Language switcher — uncomment when ready to expose
             <Link
               href={pathname}
               locale={otherLocale}
@@ -79,6 +80,7 @@ export default function Nav() {
               {otherLocale}
             </Link>
             <span className="h-4 w-px bg-gray-300" />
+            */}
             <a
               href="https://github.com/ksdhir"
               target="_blank"
